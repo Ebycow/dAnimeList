@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         dAnimeList
 // @namespace    https://ebycow.net/
-// @version      0.1
+// @version      0.3
 // @description  try to take over the world!
 // @author       Ebycow <https://ebycow.net>
 // @match        https://anime.dmkt-sp.jp/animestore/sc_d_pc?partId=*
