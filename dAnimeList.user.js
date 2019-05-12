@@ -13,7 +13,7 @@
     'use strict';
 
     $(() => {
-        $('#backPopup').append($('<div class="list mal"><div class="w2 caption">MyAnimeList</div></div>'))
+        $('#settingPopupIn').append($('<div class="list mal"><div class="w2 caption">MyAnimeList</div></div>'))
 
         $('.mal').click(() => {
             const title = $('.pauseInfoTxt1').text();
