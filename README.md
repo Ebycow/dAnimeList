@@ -1,3 +1,5 @@
+# **現在動作していません**
+
 # dAnimeList
 [dアニメストア](https://anime.dmkt-sp.jp/animestore/)で視聴中のアニメから[MyAnimeList](https://myanimelist.net/)の当該ページへのショートカットを追加するユーザスクリプト
 
