@@ -4,7 +4,7 @@
 // @version      0.3
 // @description  try to take over the world!
 // @author       Ebycow <https://ebycow.net>
-// @match        https://animestore.docomo.ne.jp/animestore/sc_d_pc?partId=*
+// @match        *://animestore.docomo.ne.jp/animestore/sc_d_pc?partId=*
 // @grant        GM_xmlhttpRequest
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==
