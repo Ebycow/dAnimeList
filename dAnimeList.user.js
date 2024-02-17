@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         dAnimeList
 // @namespace    https://ebycow.net/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       Ebycow <https://ebycow.net>
 // @match        *://animestore.docomo.ne.jp/animestore/sc_d_pc?partId=*
@@ -21,9 +21,9 @@
 
             GM_xmlhttpRequest({
                 method : 'GET',
-                url : `https://api.jikan.moe/v3/search/anime?q=${ title }&limit=${ limit }`,
+                url : `https://api.jikan.moe/v4/anime?q=${ title }&limit=${ limit }`,
                 onload : (response) => {
-                    const suggestAnimes = JSON.parse(response.responseText).results;
+                    const suggestAnimes = JSON.parse(response.responseText).data;
                     window.open(suggestAnimes[0].url,"_blank");
 
                 }
